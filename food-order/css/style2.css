@@ -1,0 +1,372 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Nunito', sans-serif;
+	box-sizing: border-box;
+}
+ .clearfix{
+ 	clear: both;
+ 	float: none;
+ 	background-color: white;
+ }
+li a{
+	text-decoration: none;
+
+}
+ul {
+ 	list-style-type: none;
+ }
+.font2{
+	font-size: 30px;
+	text-align :center;
+
+
+} 
+.font1{
+	
+	font-family:'Dancing Script', cursive; 
+	font-size: 50px;
+	color: #ff9100;
+	margin-bottom: 10px;
+	text-align :center;
+	}
+.white{
+	color: white;	
+}
+.black{
+color: black;
+}
+
+.float-container{
+	position: relative; 
+}
+.float-text{
+	position: absolute;
+	bottom: 50px;
+	left: 40%;
+	color: white;
+}
+.btn{
+	padding: 1%;
+	border :none;
+	font-size: 30px;
+	background-color: transparent;
+	font-weight: bold;
+	color: #ff9100;
+	cursor: pointer;
+	text-decoration: none;
+	float: right;
+
+}
+
+.success{
+	color :#009432;
+	font-weight: bold;
+	font-size: 20px;
+		margin-bottom: 5px;
+}
+.error{
+	color: #CA1919;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 5px;
+
+}
+ .nav .container {
+
+	margin-top:0; 
+	background-color: black;
+	padding: 3%;
+	padding-top: 0;
+
+
+
+}
+ .menu{
+ 	margin-top:2%;
+ 	width: 50%;
+ 	text-align: right;
+ 	line-height: 10px;
+ 	float: right;
+ 	margin-right: 50px;
+ 	padding: 10px;
+ 	font-size: 20px;
+ }
+.logo{
+	margin: 1%;
+	padding: 0;
+	float: left;
+	margin-bottom: 10px;
+}
+.imglogo{
+	width: 90%;
+}
+ .menu ul {
+ 	list-style-type: none;
+ }
+ .menu ul li {
+ 	display: inline-block;
+ 	padding: 1%;
+ 	font-weight: bold;
+ }
+  .menu ul li a{
+  	color: white;}
+  .menu ul li a:hover{
+  	color: #ff9100;;
+  }
+ .categories .container{
+
+	padding-top: 100px;
+	background-color: white;
+	color: black;
+	text-align :center;
+    padding: 4% 0;
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 50px;
+}
+.box1{
+		
+	width: 28%;
+	float: left;
+	margin: 2%;
+	border-radius: 10px;
+}
+.imgC{
+	width: 100%;
+	border-radius: 10px;
+}
+h1 , h2{
+	text-align: center;
+
+}
+
+span{
+	font-size: 30px;
+}
+/*footer*/
+.box-social{
+	
+	width: 28%;
+		float: left;
+		margin: 2%;
+		border-radius: 10px;
+		padding: 50px;
+		padding-bottom: 50px;
+		text-align: center;
+
+}
+.box-social p{
+	color: white;
+	text-align: center;
+	margin-bottom: 0;
+
+}
+.footer .container {
+	background-color: transparent;
+	padding-top: 10px;
+	border-top: 2px solid white;
+}
+.footer{
+	padding: 40px 0;
+    background-image: url('../img/restoo.png');
+	background-size:cover; 
+	background-repeat:  no-repeat ;
+	background-position: center;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.footer .copyright{
+	width: 100%;
+	text-align: center;
+	padding: 25px 15px;
+	font-size: 16px;
+	color: white;
+	border-top: 1px solid white;
+}
+.box-social ul li {
+	display: inline;
+	padding :1%;
+	margin-right: 5px;
+
+}
+.foodMenu .container {
+padding-left: 60px;
+background-color: #f2f2f2;
+padding-bottom: 50px;
+padding-top: 50px;
+}
+.foodMenu .container h1{
+		font-size:20px;
+    color: #ff9100;
+    text-decoration: none; 
+}
+.foodMenu .container a{
+		font-size: 30px;
+    color: #ff9100;
+    text-decoration: none; 
+}
+.foodMenu .container a:hover{
+		font-size: 30px;
+    	color: black; 
+}
+
+.food{
+
+width: 45%;
+margin : 1%;
+float: left;
+padding :2%;
+margin-bottom: 0;
+background-color: white;
+border:1px solid black;
+	box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.food-menu-img{
+	width:40%; 
+	float: left;
+}
+.img-menu{
+	width:100%; 
+}
+.food-menu-desc{
+	width: 50%;
+	float: left;
+	margin-left: 7%
+}
+.price{
+	font-size: 20px;
+
+	color: black;
+}
+.desc{
+	font-size: 15px;
+	color: black;
+}
+.food-menu-desc h4{
+	font-size: 30px;
+	color: black;
+	font-family:'Dancing Script', cursive; 
+
+}
+.foodSearch{
+	width: 100%;
+	margin-top: 2%;
+	text-align : center;
+	color: white;
+	margin-bottom: 2%;
+
+}
+.foodSearch .search{
+width: 80%;
+padding: 5px;
+font-size: 20px;
+border : 2px solid  white;
+border-radius: 10px ;
+background-color: white;
+	box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+border:1px solid black;
+}
+/*order form*/
+
+.input{
+  width:90%;
+  padding: 15px;
+  margin: 5px 9px 22px 30px;
+  border: none;
+  background: #f1f1f1;
+  display:block;
+  border:2px solid black;
+}
+.order-label{
+    margin-bottom: 1%; 
+    margin-left: 4.2%;
+    font-weight: bold;
+}
+fieldset{
+border:2px solid black;	
+padding-bottom: 5px;
+
+}
+form {
+	width: 50%;
+    margin: 50px auto;
+}
+form .food-menu-img{
+	width:30%; 
+	float: left;
+	margin: 10px;
+	margin-left: 20px;
+}
+form .price{
+	font-weight: bold;
+	color: black;
+}
+form .desc{
+	font-weight: bold;
+	color: black;
+	
+}
+form .food-menu-desc h4{
+	color: black;
+}
+.btn2{
+	background-color: #ff9100;
+	color: black;
+	margin-left: 31px; 	
+	margin-bottom: 20px;
+	padding: 1%;
+	border :none;
+	font-size: 25px;
+	font-weight: bold;
+	cursor: pointer;
+	text-decoration: none;	
+	border-radius: 6px;
+
+}
+.input-qty{
+	margin-top: 5px;
+	width: 90%;
+}
+.btn-primary{
+	background-color: black;
+	padding: 8px;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 25px;
+	border-radius: 5px;
+	float: right;
+	margin-right: 90px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+
+}
+.btn-primary:hover{
+	background-color: #2f3542;}
+.foodMenu .container .btn-p  a{
+    color: white;
+
+}
+
